@@ -27,7 +27,7 @@ export function LeftHero() {
           </a>
         </Button>
         <Button variant="brown">
-          <a href="#about" className="flex items-center gap-3">
+          <a href="#sobre" className="flex items-center gap-3">
             Explore
             <ArrowDown size={14} />
           </a>
