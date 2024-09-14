@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-zinc-900 text-zinc-50;
+}
+
+.menu-btn {
+  @apply grid size-10 place-items-center rounded-xl bg-zinc-50/10 ring-1 ring-inset ring-zinc-50/[0.02] backdrop-blur-2xl transition-transform hover:bg-zinc-50/15 active:scale-95 md:hidden;
+}
+
+.navbar {
+  @apply invisible absolute right-0 top-full isolate mt-2 min-w-40 scale-90 rounded-2xl bg-zinc-50/10 p-2 opacity-0 ring-1 ring-inset ring-zinc-50/10 blur-sm backdrop-blur-2xl transition-all md:visible md:static md:mt-0 md:flex md:scale-100 md:items-center md:opacity-100 md:blur-0;
+}
+
+.navbar.active {
+  @apply visible scale-100 text-zinc-900 opacity-100 blur-0;
+}
+
+.navbar .active-box {
+  @apply absolute left-2 right-2 top-2 -z-10 h-9 rounded-lg bg-zinc-50 duration-500;
+}
+
+.nav-link {
+  @apply grid h-9 items-center px-4 text-sm font-medium tracking-wide text-zinc-50/50 transition-colors hover:text-zinc-50;
+}
+
+.nav-link.active {
+  @apply text-zinc-900;
+}
+
+.headline {
+  @apply max-w-max;
+  background: -webkit-linear-gradient(0deg, #fafafa, #a1a1a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headline {
+  @apply text-5xl font-semibold leading-tight lg:text-[55px] lg:leading-[1.15];
+}
