@@ -49,6 +49,13 @@ body {
   @apply text-5xl font-semibold leading-tight lg:text-[55px] lg:leading-[1.15];
 }
 
+.headline-md {
+  @apply max-w-max text-3xl font-semibold lg:text-4xl lg:leading-tight;
+  background: -webkit-linear-gradient(0deg, #fafafa, #a1a1a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .section {
   @apply pt-20;
 }

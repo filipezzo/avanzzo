@@ -4,14 +4,17 @@ import { AboutItem } from "./inner/about-item";
 
 export function About() {
   return (
-    <section id="sobre" className="my-8 px-4">
-      <div className="container h-fit rounded-2xl bg-zinc-800/50 p-7 md:h-56">
-        <p className="mb-4 max-w-[80ch] text-zinc-300 md:mb-8">
-          Bem vindo <span className="">👋</span> <br /> Meu nome é Filipe. Sou
-          um Ex-atleta profissional de eSports, agora desenvolvedor Front End.
-          Trago a mesma determinação e busca constante por evolução para o
-          desenvolvimento, aplicando essas características em todos os projetos
-          que realizo.
+    <section className="my-8 px-4">
+      <div className="container h-fit rounded-2xl bg-zinc-800/50 p-7 md:h-56 xl:max-w-[68rem]">
+        <p className="mb-2 text-zinc-300">
+          {" "}
+          Bem vindo <span className="">👋</span> <br />
+        </p>
+        <p className="mb-6 max-w-[80ch] text-zinc-300 md:mb-8">
+          Meu nome é Filipe. Sou um ex-atleta profissional de eSports, agora
+          desenvolvedor Front End. Trago a mesma determinação e busca constante
+          por evolução para o desenvolvimento, aplicando essas características
+          em todos os projetos que realizo.
         </p>
         <footer className="flex w-full flex-col md:flex-row md:items-center md:justify-between">
           <ul className="grid grid-cols-2 gap-5 md:flex md:flex-row md:items-center">
