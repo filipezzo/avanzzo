@@ -24,10 +24,8 @@ export function Nav({ navOpen }: NavProps) {
   };
 
   const handleResize = useCallback(() => {
-    if (window.innerWidth < 768) {
-      setElementPosition(initialPositionState);
-      setActiveLink(null);
-    }
+    setElementPosition(initialPositionState);
+    setActiveLink(null);
   }, []);
 
   useEffect(() => {

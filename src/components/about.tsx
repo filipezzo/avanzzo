@@ -1,12 +1,13 @@
 import { Webhook } from "lucide-react";
 import { aboutCards } from "../constants/about-cards";
+import { Container } from "./container";
 import { AboutItem } from "./inner/about-item";
 
 export function About() {
   return (
     <section className="my-8 px-4">
-      <div className="container h-fit rounded-2xl bg-zinc-800/50 p-7 md:h-56 xl:max-w-[68rem]">
-        <p className="mb-2 text-zinc-300">
+      <Container className="h-fit rounded-2xl bg-zinc-800/50 p-7 md:h-56 xl:max-w-[68rem]">
+        <p className="mb-3 text-zinc-300">
           {" "}
           Bem vindo <span className="">👋</span> <br />
         </p>
@@ -33,7 +34,7 @@ export function About() {
             <Webhook className="text-zinc-400" />
           </div>
         </footer>
-      </div>
+      </Container>
     </section>
   );
 }

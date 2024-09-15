@@ -46,7 +46,7 @@ body {
 }
 
 .headline {
-  @apply text-5xl font-semibold leading-tight lg:text-[55px] lg:leading-[1.15];
+  @apply text-4xl font-semibold leading-tight sm:text-5xl lg:text-[55px] lg:leading-[1.15];
 }
 
 .headline-md {
@@ -58,4 +58,31 @@ body {
 
 .section {
   @apply pt-20;
+}
+
+#projetos {
+  li {
+    @media (max-width: 340px) {
+      max-width: calc(100vw - 10%);
+    }
+    @media (min-width: 341px) and (max-width: 380px) {
+      max-width: calc(100vw - 10%);
+    }
+
+    @media (min-width: 381px) and (max-width: 400px) {
+      max-width: calc(100vw - 10%);
+    }
+  }
+  figure {
+    @media (max-width: 340px) {
+      max-width: calc(100vw - 10%);
+    }
+    @media (min-width: 341px) and (max-width: 379px) {
+      max-width: calc(100vw - 10%);
+    }
+
+    @media (min-width: 380px) and (max-width: 400px) {
+      width: calc(100vw - 10%);
+    }
+  }
 }
