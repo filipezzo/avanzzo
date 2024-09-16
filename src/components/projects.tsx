@@ -6,7 +6,7 @@ export function Projects() {
   return (
     <section id="projetos" className="pt-20">
       <Container>
-        <Heading>Projetos Reais & Certificados</Heading>
+        <Heading>Projetos Reais && Certificados</Heading>
         <PortfolioList />
       </Container>
     </section>

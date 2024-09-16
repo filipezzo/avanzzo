@@ -49,9 +49,9 @@ export const projectsCertifications: IProjectCertification[] = [
 
   {
     id: 6,
-    src: "/src/assets/justjs.png",
-    label: "Just JS",
-    tags: ["front-end", "Javascript", "curso"],
-    link: "https://justjavascript.com/",
+    src: "/src/assets/coming.png",
+    label: "Em breve...",
+    tags: ["react"],
+    link: "",
   },
 ];

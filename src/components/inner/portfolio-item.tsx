@@ -16,7 +16,7 @@ export function PortfolioItem({
         />
         <figcaption className="md:items-initial flex flex-col gap-4 md:flex-row md:justify-between">
           <div>
-            <h3 className="mb-3 group-hover:text-sky-300">{label}</h3>
+            <h3 className="mb-3 group-hover:text-sky-400">{label}</h3>
             <ul className="flex flex-col flex-wrap gap-3 md:flex-row">
               {tags.map((tag, index) => (
                 <li

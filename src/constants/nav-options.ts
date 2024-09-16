@@ -26,8 +26,8 @@ export const navOptions: INav[] = [
   },
   {
     id: 4,
-    label: "Reviews",
-    link: "#reviews",
+    label: "Depoimentos",
+    link: "#depoimentos",
     className: "nav-link",
   },
   {

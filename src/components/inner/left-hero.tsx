@@ -11,7 +11,7 @@ export function LeftHero() {
         </span>
         <span className="text-sm tracking-wide text-zinc-400">Disponível</span>
       </header>
-      <h2 className="headline mb-8 mt-5 max-w-[15ch] sm:max-w-[20ch] lg:mb-10">
+      <h2 className="headline mb-8 mt-3 max-w-[15ch] sm:max-w-[20ch] lg:mb-10">
         Criando Soluções Web Modernas && Escaláveis para um Futuro Digital
       </h2>
       <div className="flex items-center gap-3">
