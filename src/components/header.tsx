@@ -1,6 +1,6 @@
 import { Code, Menu, X } from "lucide-react";
 import { useState } from "react";
-import { Button } from "./button";
+import { Link } from "./link";
 import { Nav } from "./nav";
 
 export function Header() {
@@ -24,9 +24,9 @@ export function Header() {
           </button>
           <Nav navOpen={isNavOpen} />
         </div>
-        <Button className="max-md:hidden md:justify-self-end">
-          <a href="#contato"> Contato</a>
-        </Button>
+        <Link href="#contato" className="max-md:hidden md:justify-self-end">
+          Contato
+        </Link>
       </div>
     </header>
   );

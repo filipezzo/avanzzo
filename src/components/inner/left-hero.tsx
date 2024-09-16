@@ -1,5 +1,6 @@
 import { ArrowDown, BriefcaseBusiness, Download } from "lucide-react";
 import { Button } from "../button";
+import { Link } from "../link";
 
 export function LeftHero() {
   return (
@@ -26,12 +27,10 @@ export function LeftHero() {
             <Download size={14} />
           </a>
         </Button>
-        <Button variant="brown">
-          <a href="#sobre" className="flex items-center gap-3">
-            Explore
-            <ArrowDown size={14} />
-          </a>
-        </Button>
+        <Link href="#stack" className="gap-3" variant="brown">
+          Explore
+          <ArrowDown size={14} />
+        </Link>
       </div>
     </div>
   );

@@ -20,7 +20,7 @@ export function PortfolioItem({
             <ul className="flex flex-col flex-wrap gap-3 md:flex-row">
               {tags.map((tag, index) => (
                 <li
-                  className="grid h-8 max-w-full cursor-default place-items-center rounded-lg bg-zinc-700 p-2 text-sm text-zinc-400 transition-all hover:scale-95"
+                  className="grid max-w-full cursor-default place-items-center rounded-lg bg-zinc-700 p-2 text-sm text-zinc-400 transition-all hover:scale-95"
                   key={index}
                 >
                   {tag}

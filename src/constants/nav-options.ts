@@ -14,8 +14,8 @@ export const navOptions: INav[] = [
   },
   {
     id: 2,
-    label: "Sobre",
-    link: "#sobre",
+    label: "Stack",
+    link: "#stack",
     className: "nav-link",
   },
   {
