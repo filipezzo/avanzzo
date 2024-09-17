@@ -9,18 +9,6 @@ import { ReviewsItem } from "./inner/reviews-item";
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
 export function Reviews() {
-  useGSAP(() => {
-    gsap.to(".scrub-slide", {
-      scrollTrigger: {
-        trigger: ".scrub-slide",
-        start: "40% 80%",
-        end: "400% 80%",
-        scrub: true,
-      },
-      x: "-1200",
-    });
-  });
-
   return (
     <section id="depoimentos" className="overflow-hidden pt-10 sm:pt-20">
       <Container>
