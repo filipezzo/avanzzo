@@ -14,13 +14,13 @@ export function PortfolioItem({
           src={src}
           alt={`imagem sobre ${label}`}
         />
-        <figcaption className="md:items-initial flex flex-col gap-4 md:flex-row md:justify-between">
+        <figcaption className="flex justify-between gap-4">
           <div>
             <h3 className="mb-3 group-hover:text-sky-400">{label}</h3>
-            <ul className="flex flex-col flex-wrap gap-3 md:flex-row">
+            <ul className="flex flex-wrap gap-3 md:flex-row">
               {tags.map((tag, index) => (
                 <li
-                  className="grid max-w-full cursor-default place-items-center rounded-lg bg-zinc-700 p-2 text-sm text-zinc-400 transition-all hover:scale-95"
+                  className="grid cursor-default place-items-center rounded-lg bg-zinc-700 p-2 text-sm text-zinc-400 transition-all md:hover:scale-95"
                   key={index}
                 >
                   {tag}
