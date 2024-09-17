@@ -24,31 +24,4 @@ export const reviews: IReview[] = [
     role: "Dev Backend",
     picture: "assets/lucas.jpg",
   },
-
-  {
-    id: 3,
-    description:
-      "Atuei com o Filipe no Flowon. Posso dizer que não é em todo lugar que se acha um colega de equipe tão colaborativo e com o nível de conhecimento dele. Há de se destacar seu grande conhecimento técnico em React.",
-    person: "Lucas Nogueira",
-    role: "Dev Backend",
-    picture: "assets/lucas.jpg",
-  },
-
-  {
-    id: 4,
-    description:
-      "Atuei com o Filipe no Flowon. Posso dizer que não é em todo lugar que se acha um colega de equipe tão colaborativo e com o nível de conhecimento dele. Há de se destacar seu grande conhecimento técnico em React.",
-    person: "Lucas Nogueira",
-    role: "Dev Backend",
-    picture: "assets/lucas.jpg",
-  },
-
-  {
-    id: 5,
-    description:
-      "Atuei com o Filipe no Flowon. Posso dizer que não é em todo lugar que se acha um colega de equipe tão colaborativo e com o nível de conhecimento dele. Há de se destacar seu grande conhecimento técnico em React.",
-    person: "Lucas Nogueira",
-    role: "Dev Backend",
-    picture: "assets/lucas.jpg",
-  },
 ];

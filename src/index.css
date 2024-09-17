@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .paused {
+    animation-play-state: paused;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -108,6 +114,19 @@ body {
 
 .reveal-up {
   @apply translate-y-20 opacity-0;
+}
+
+.animate-list {
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
 }
 
 @keyframes wave {
