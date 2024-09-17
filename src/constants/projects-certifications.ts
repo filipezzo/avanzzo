@@ -17,18 +17,18 @@ export const projectsCertifications: IProjectCertification[] = [
 
   {
     id: 2,
-    src: "assets/react-gg.png",
-    label: "React.gg",
-    tags: ["front-end", "react", "curso"],
-    link: "https://react.gg/",
+    src: "assets/estagio.png",
+    label: "Dev Frontend Freelancer",
+    tags: ["front-end", "trabalho", "dev"],
+    link: "https://ludilens.com/",
   },
 
   {
     id: 3,
-    src: "assets/justjs.png",
-    label: "Just JS",
-    tags: ["front-end", "Javascript", "curso"],
-    link: "https://justjavascript.com/",
+    src: "assets/react-gg.png",
+    label: "React.gg",
+    tags: ["front-end", "react", "curso"],
+    link: "https://react.gg/",
   },
 
   {
@@ -41,17 +41,17 @@ export const projectsCertifications: IProjectCertification[] = [
 
   {
     id: 5,
-    src: "assets/coderhouse.png",
-    label: "Coderhouse",
-    tags: ["front-end", "react", "curso"],
-    link: "https://www.coderhouse.com",
+    src: "assets/justjs.png",
+    label: "Just JS",
+    tags: ["front-end", "Javascript", "curso"],
+    link: "https://justjavascript.com/",
   },
 
   {
     id: 6,
-    src: "assets/coming.png",
-    label: "Em breve...",
-    tags: ["react"],
-    link: "",
+    src: "assets/coderhouse.png",
+    label: "Coderhouse",
+    tags: ["front-end", "react", "curso"],
+    link: "https://www.coderhouse.com",
   },
 ];
