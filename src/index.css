@@ -87,9 +87,20 @@ body {
   }
 }
 
+#projetos ul {
+  scrollbar-width: none;
+}
+#projetos ul::-webkit-scrollbar {
+  display: none;
+}
+
 .wave-animate {
   animation: wave 2s linear infinite;
   display: inline-block;
+}
+
+.reveal-up {
+  @apply translate-y-20 opacity-0;
 }
 
 @keyframes wave {

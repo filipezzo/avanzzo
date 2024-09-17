@@ -9,7 +9,7 @@ export function FooterListItem({
   variant,
 }: FooterListItemProps) {
   return (
-    <li className="">
+    <li>
       <a
         className="block py-1 text-sm text-zinc-400 transition-colors hover:text-zinc-200"
         href={link}

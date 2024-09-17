@@ -10,7 +10,7 @@ export function Footer() {
       <Container>
         <div className="flex w-full flex-col lg:grid lg:grid-cols-2 lg:items-baseline">
           <div className="mb-10">
-            <h2 className="headline mb-8 max-w-[12ch] sm:max-w-[20ch] lg:mb-10 lg:text-[48px]">
+            <h2 className="headline reveal-up mb-8 max-w-[12ch] sm:max-w-[20ch] lg:mb-10 lg:text-[48px]">
               Pronto para transformar suas ideias em realidade digital?
             </h2>
             <Link
