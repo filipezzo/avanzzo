@@ -60,6 +60,13 @@ body {
   @apply pt-20;
 }
 
+.figure-img {
+  @media (min-width: 370px) and (max-width: 639px) {
+    max-height: 200px;
+    width: 638px;
+  }
+}
+
 #projetos {
   li {
     @media (max-width: 340px) {
