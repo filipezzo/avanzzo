@@ -18,7 +18,7 @@ export function LeftHero() {
       <div className="flex items-center gap-3">
         <Button variant="ocean">
           <a
-            href="/public/cv.pdf"
+            href="/assets/cv.pdf"
             target="_blank"
             className="flex items-center gap-3"
             download="cv.pdf"
