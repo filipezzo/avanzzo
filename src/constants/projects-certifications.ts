@@ -9,7 +9,7 @@ export interface IProjectCertification {
 export const projectsCertifications: IProjectCertification[] = [
   {
     id: 1,
-    src: "/src/assets/circular.png",
+    src: "./src/assets/circular.png",
     label: "Estação Circular",
     tags: [" responsável front-end", "projeto real"],
     link: "https://www.estacaocircular.app.br/login",
@@ -17,7 +17,7 @@ export const projectsCertifications: IProjectCertification[] = [
 
   {
     id: 2,
-    src: "/src/assets/react-gg.png",
+    src: "./src/assets/react-gg.png",
     label: "React.gg",
     tags: ["front-end", "react", "curso"],
     link: "https://react.gg/",
@@ -33,7 +33,7 @@ export const projectsCertifications: IProjectCertification[] = [
 
   {
     id: 4,
-    src: "/src/assets/joy-of-react.jpg",
+    src: "./src/assets/joy-of-react.jpg",
     label: "Joy of React",
     tags: ["front-end", "react", "curso"],
     link: "https://www.joyofreact.com/",
@@ -41,7 +41,7 @@ export const projectsCertifications: IProjectCertification[] = [
 
   {
     id: 5,
-    src: "/src/assets/coderhouse.png",
+    src: "./src/assets/coderhouse.png",
     label: "Coderhouse",
     tags: ["front-end", "react", "curso"],
     link: "https://www.coderhouse.com",
@@ -49,7 +49,7 @@ export const projectsCertifications: IProjectCertification[] = [
 
   {
     id: 6,
-    src: "/src/assets/coming.png",
+    src: "./src/assets/coming.png",
     label: "Em breve...",
     tags: ["react"],
     link: "",
