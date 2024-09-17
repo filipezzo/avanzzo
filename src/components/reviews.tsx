@@ -22,7 +22,7 @@ export function Reviews() {
   });
 
   return (
-    <section id="depoimentos" className="overflow-hidden pt-20">
+    <section id="depoimentos" className="overflow-hidden pt-10 sm:pt-20">
       <Container>
         <Heading>Depoimentos</Heading>
         <ul className="scrub-slide mt-8 flex w-fit items-stretch gap-3">

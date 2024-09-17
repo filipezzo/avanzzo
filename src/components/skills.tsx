@@ -4,7 +4,7 @@ import { SkillsList } from "./inner/skills-list";
 
 export function Skills() {
   return (
-    <section id="stack" className="pt-20">
+    <section id="stack" className="pt-10 sm:pt-20">
       <Container className="container">
         <SkillsInfo />
         <SkillsList />

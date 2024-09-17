@@ -4,7 +4,7 @@ import { PortfolioList } from "./portfolio-list";
 
 export function Projects() {
   return (
-    <section id="projetos" className="pt-20">
+    <section id="projetos" className="pt-10 sm:pt-20">
       <Container>
         <Heading>Projetos Reais && Certificados</Heading>
         <PortfolioList />

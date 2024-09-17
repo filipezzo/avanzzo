@@ -6,7 +6,7 @@ import { LogoFooter } from "./logo-footer";
 
 export function Footer() {
   return (
-    <footer className="pt-20">
+    <footer className="pt-10 sm:pt-20">
       <Container>
         <div className="flex w-full flex-col lg:grid lg:grid-cols-2 lg:items-baseline">
           <div className="mb-10">

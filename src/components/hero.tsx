@@ -4,7 +4,7 @@ import { RightHero } from "./inner/right-hero";
 
 export function Hero() {
   return (
-    <section className="pt-20 lg:pt-12" id="home">
+    <section className="pt-10 sm:pt-20 lg:pt-12" id="home">
       <Container className="items-center lg:grid lg:grid-cols-2 lg:gap-10">
         <LeftHero />
         <RightHero />
