@@ -8,7 +8,7 @@ export function SkillsItem({
   return (
     <li className="reveal-up group rounded-2xl p-3 ring-2 ring-inset ring-zinc-50/10 transition-colors hover:bg-zinc-800">
       <figure className="flex items-center gap-3 p-2">
-        <div className="grid size-12 place-items-center overflow-hidden rounded-lg bg-zinc-700 transition-colors group-hover:bg-zinc-900">
+        <div className="grid max-h-12 min-h-12 min-w-12 max-w-12 place-items-center overflow-hidden rounded-lg bg-zinc-700 transition-colors group-hover:bg-zinc-900">
           <img
             className="size-8 object-cover"
             src={src}

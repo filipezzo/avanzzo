@@ -17,7 +17,7 @@ export function Reviews() {
         end: "400% 80%",
         scrub: true,
       },
-      x: "-600",
+      x: "-1200",
     });
   });
 
