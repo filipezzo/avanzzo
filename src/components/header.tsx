@@ -17,7 +17,7 @@ export function Header() {
           <a
             href="/"
             aria-label="Volta para a parte inicial do site"
-            className="logo"
+            className="logo transition-colors hover:text-sky-400"
           >
             <Code size={40} />
           </a>

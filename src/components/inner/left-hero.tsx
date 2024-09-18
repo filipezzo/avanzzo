@@ -1,5 +1,4 @@
 import { ArrowDown, BriefcaseBusiness, Download } from "lucide-react";
-import { Button } from "../button";
 import { Link } from "../link";
 
 export function LeftHero() {
@@ -16,17 +15,18 @@ export function LeftHero() {
         Criando Soluções Web Modernas && Escaláveis para um Futuro Digital
       </h2>
       <div className="flex items-center gap-3">
-        <Button variant="ocean">
-          <a
-            href="/assets/cv.pdf"
-            target="_blank"
-            className="flex items-center gap-3"
-            download="cv.pdf"
-          >
-            Download CV
-            <Download size={14} />
-          </a>
-        </Button>
+        <Link
+          variant="ocean"
+          href="/assets/cv.pdf"
+          target="_blank"
+          aria-label="abre em uma nova aba o download do "
+          className="flex items-center gap-3"
+          download="cv.pdf"
+        >
+          Download CV
+          <Download size={14} />
+        </Link>
+
         <Link href="#stack" className="gap-3" variant="brown">
           Explore
           <ArrowDown size={14} />

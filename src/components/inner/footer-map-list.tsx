@@ -8,7 +8,7 @@ interface FooterMapListProps {
 
 export function FooterMapList({ list, variant }: FooterMapListProps) {
   return (
-    <ul className="">
+    <ul className="flex flex-col gap-2 md:gap-0">
       {list.map((item) => (
         <FooterListItem variant={variant} key={item.id} item={item} />
       ))}
