@@ -52,7 +52,7 @@ body {
 }
 
 .headline {
-  @apply text-4xl font-semibold leading-tight sm:text-5xl lg:text-[55px] lg:leading-[1.15];
+  @apply text-3xl font-semibold leading-tight sm:text-5xl lg:text-[55px] lg:leading-[1.15];
 }
 
 .headline-md {

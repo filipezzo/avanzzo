@@ -17,6 +17,7 @@ export function Footer() {
               className="w-full lg:max-w-fit"
               href="mailto:filipetsx@gmail.com"
               variant="ocean"
+              aria-label="Link para enviar email para contato"
             >
               Começar Projeto
               <ArrowRight size={16} />

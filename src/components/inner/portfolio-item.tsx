@@ -28,7 +28,7 @@ export function PortfolioItem({
               ))}
             </ul>
           </div>
-          <ExternalIcon link={link} />
+          <ExternalIcon label={label} link={link} />
         </figcaption>
       </figure>
     </li>

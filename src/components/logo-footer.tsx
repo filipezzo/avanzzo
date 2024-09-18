@@ -5,7 +5,11 @@ export function LogoFooter() {
   const year = getYear();
   return (
     <div className="col-span-2 mb-8 flex w-full items-center justify-between pt-10">
-      <a className="block w-full" href="/">
+      <a
+        aria-label="logo para recarregar o site"
+        className="block w-full"
+        href="/"
+      >
         <Code className="size-10" />
       </a>
       <p className="text-nowrap text-sm text-zinc-500">
