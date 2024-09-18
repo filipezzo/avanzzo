@@ -5,6 +5,7 @@ export function RightHero() {
         <img
           src="https://avatars.githubusercontent.com/u/109238541?v=4"
           className="h-[360px] w-[360px] rounded-full object-cover shadow-md ring-1 ring-zinc-500/50"
+          alt="Imagem de perfil Filipe Avanzzo do github"
         />
       </figure>
     </div>

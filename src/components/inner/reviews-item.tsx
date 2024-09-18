@@ -18,6 +18,7 @@ export function ReviewsItem({
           <img
             loading="lazy"
             src={picture}
+            alt={`imagem da pessoa ${person}`}
             className="size-11 rounded-lg object-contain"
           />
           <figcaption className="">
