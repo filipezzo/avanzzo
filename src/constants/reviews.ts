@@ -24,4 +24,12 @@ export const reviews: IReview[] = [
     role: "Dev Backend",
     picture: "assets/lucas.jpg",
   },
+  {
+    id: 3,
+    description:
+      "Tive a oportunidade de acompanhar o desenvolvimento de projetos em que ele participou e pude perceber sua excelente habilidade para resolver problemas. Ao longo de sua jornada, ele tem se destacado pelo cuidado com os detalhes, revelando um futuro promissor na área.",
+    person: "Mário Santos",
+    role: "Dev Fullstack",
+    picture: "assets/marin.jpg",
+  },
 ];
